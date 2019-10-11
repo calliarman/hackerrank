@@ -1,3 +1,5 @@
+package JavaStdinandStdoutI;
+
 import java.util.Scanner;
 
 public class JavaStdinandStdoutI {

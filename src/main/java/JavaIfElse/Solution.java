@@ -1,3 +1,5 @@
+package JavaIfElse;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -6,7 +8,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class JavaIfElse {
+public class Solution {
 
     private static final Scanner scanner = new Scanner(System.in);
 

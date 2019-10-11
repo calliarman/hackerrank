@@ -1,3 +1,5 @@
+package DivisibleSumPairs;
+
 public class DivisibleSumPairs {
 
 

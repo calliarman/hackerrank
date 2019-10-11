@@ -1,19 +1,24 @@
 package CatsandaMouse;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.io.IOException;
+import java.util.Scanner;
 
 public class Solution {
 
     // Complete the catAndMouse function below.
     static String catAndMouse(int x, int y, int z) {
+        int distanceA, distanceB = 0;
 
-        return "etst";
+        distanceA = Math.abs(z - x);
+        distanceB = Math.abs(z - y);
+
+        if (distanceA < distanceB)
+            return ("Cat A");
+
+        if (distanceA > distanceB)
+            return ("Cat B");
+
+        return "Mouse C";
     }
 
     private static final Scanner scanner = new Scanner(System.in);

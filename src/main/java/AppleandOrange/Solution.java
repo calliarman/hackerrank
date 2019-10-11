@@ -1,4 +1,6 @@
-public class AppleandOrange {
+package AppleandOrange;
+
+public class Solution {
 
 
     static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
